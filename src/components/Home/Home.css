@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css?family=Anton|Lilita+One|Roboto&display=swap");
+
+.layout {
+  background-clip: border-box;
+  background-position-x: 50%;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  width: 100%;
+  height: 720px;
+  margin: 0%;
+  padding: 0%;
+  text-size-adjust: 100%;
+  display: table;
+  position: relative;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+}
+
+canvas {
+  display: block;
+  background: #200122; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #6f0000,
+    #200122
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #6f0000,
+    #200122
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  position: fixed;
+  z-index: -1;
+}
+
+.navbar-home {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.layout .brand-name {
+  font-family: "Anton", sans-serif;
+  font-size: 80px;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 250px;
+  position: relative;
+  color: white;
+  opacity: 0.6;
+  letter-spacing: 10px;
+}
+
+.layout .work {
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Anton", sans-serif;
+  font-size: 30px;
+  color: white;
+  opacity: 0.5;
+  letter-spacing: 4px;
+}
+
+.about-section {
+  background-color: #1f1e23;
+  font-family: "Lilita One", cursive;
+  font-size: 2vw;
+  text-align: center;
+  padding: 4em;
+}
+
+.about-section h2 {
+  color: yellow;
+}
+
+.about-section hr {
+  border: 0.13vw solid yellow;
+  width: 30%;
+}
+
+.about-section .about-content p {
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  color: darkgrey;
+  vertical-align: middle;
+  padding-top: 4em;
+  font-size: 20px;
+  margin: 0.5em;
+  margin-bottom: 0em;
+}
+
+.about-section .about-content img {
+  border-radius: 50%;
+  margin-top: 40px;
+  vertical-align: middle;
+  height: 250px;
+}
+
+#myFooter {
+  text-align: center;
+}
+
+.skill-section {
+  background-color: #1f1e23;
+  font-family: "Lilita One", cursive;
+  font-size: 2vw;
+  color: yellow;
+  text-align: center;
+  padding: 4em;
+  overflow-wrap: break-word;
+}
+
+.skill-section hr {
+  border: 0.13vw solid yellow;
+  width: 30%;
+}
+
+.skill-section #skills-set {
+  padding: 0.8em;
+}
+
+.skill-section #skills-set h4 {
+  color: darkgray;
+}
+
+.org-section {
+  background-color: #1f1e23;
+  text-align: center;
+}
+
+.org-section h2 {
+  text-align: center;
+  font-family: "Lilita One", cursive;
+  color: yellow;
+}
+
+.org-section h4 {
+  font-family: "Lilita One", cursive;
+  color: #ff4f19;
+}
+
+.org-section p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: darkgray;
+  margin-top: 3em;
+  padding-top: 0.5em;
+  text-align: left;
+}
+
+.org-section hr {
+  border: 0.13vw solid yellow;
+  width: 30%;
+}
+
+.org-section img {
+  margin-top: 4em;
+  margin-bottom: 1em;
+  padding: 5px;
+  height: 110px;
+}
+
+.container {
+  max-width: none;
+  margin: 0%;
+  padding: 2em;
+  overflow: hidden;
+}
+
+#myFooter .container .row {
+  padding: 0%;
+}
+
+.interests-section {
+  background-color: #1f1e23;
+  text-align: center;
+  padding: 4em;
+}
+
+.interests-section h2 {
+  font-family: "Lilita One", cursive;
+  color: yellow;
+}
+
+.interests-section hr {
+  border: 0.13vw solid yellow;
+  width: 30%;
+}
+
+.interests-section .int-list {
+  padding: 60px;
+  margin: 0.5em;
+  color: darkgray;
+}
+
+.projects-section {
+  background-color: #1f1e23;
+  text-align: center;
+  padding-top: 4em;
+}
+
+.projects-section h2 {
+  font-family: "Lilita One", cursive;
+  color: yellow;
+}
+
+.projects-section hr {
+  border: 0.13vw solid yellow;
+  width: 30%;
+}
+
+.projects-section .card {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.projects-section p {
+  text-align: left;
+  color: darkgray;
+  margin-top: 35px;
+}
+
+.achievements {
+  background: #1f1e23;
+  text-align: center;
+  padding-top: 4em;
+}
+
+.achievements h2 {
+  font-family: "Lilita One", cursive;
+  color: yellow;
+}
+
+.achievements hr {
+  border: 0.13vw solid yellow;
+  width: 30%;
+}
+
+.achievements #content1 {
+  padding: 1em;
+}
+
+.achievements #content1 h4 {
+  color: #ff4f19;
+}
+
+.achievements #content1 h3 {
+  color: darkgrey;
+}
+
+.achievements #content1 #list {
+  padding: 1.5em;
+}
